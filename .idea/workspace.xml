@@ -18,18 +18,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Yi0121"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yi0121&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Yi0121/NLP-project.git",
-    "accountId": "2fa62bc1-e991-48d4-967e-bbcf991744c5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Yi0121/NLP-project.git&quot;,
+    &quot;accountId&quot;: &quot;2fa62bc1-e991-48d4-967e-bbcf991744c5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -44,6 +44,7 @@
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/FM_pc/Documents/NLP-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -71,6 +72,7 @@
       <workItem from="1751514711981" duration="4195000" />
       <workItem from="1751595982962" duration="18000" />
       <workItem from="1751596073315" duration="2764000" />
+      <workItem from="1751612235252" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="inital prepare">
       <option name="closed" value="true" />
@@ -96,7 +98,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751609223019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="inital prepare">
+      <option name="closed" value="true" />
+      <created>1751612301071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751612301071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="inital prepare">
+      <option name="closed" value="true" />
+      <created>1751612434013</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751612434013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
