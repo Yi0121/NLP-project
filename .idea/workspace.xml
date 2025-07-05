@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8c1328b-df12-475c-80ba-1f53c80df67d" name="Changes" comment="set environment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reqirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/reqirement.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
       <workItem from="1751704817309" duration="948000" />
       <workItem from="1751705848972" duration="395000" />
       <workItem from="1751706952559" duration="853000" />
-      <workItem from="1751708032237" duration="654000" />
+      <workItem from="1751708032237" duration="1626000" />
     </task>
     <task id="LOCAL-00001" summary="inital prepare">
       <option name="closed" value="true" />
@@ -172,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751708112410</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="set environment">
+      <option name="closed" value="true" />
+      <created>1751708702235</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751708702235</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
