@@ -1,0 +1,30 @@
+# 基本 NLP 處理
+nltk>=3.8
+spacy>=3.7
+
+# 傳統機器學習與向量化
+scikit-learn>=1.3
+gensim>=4.3
+
+# 深度學習框架（二擇一即可）
+tensorflow>=2.15
+# torch>=2.1.0
+
+# BERT 微調與語意嵌入
+transformers>=4.41
+datasets>=2.19
+
+# 資料處理與數值運算
+pandas>=2.2
+numpy>=1.26
+
+# 評估與視覺化
+matplotlib>=3.8
+seaborn>=0.13
+
+# Web 展示用（Streamlit 前端）
+streamlit>=1.35
+
+# 文字清洗（選用）
+regex>=2023.12
+
