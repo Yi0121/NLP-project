@@ -7,12 +7,9 @@
     <list default="true" id="e8c1328b-df12-475c-80ba-1f53c80df67d" name="Changes" comment="clean data test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clean data/clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/Clean data/clean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/台灣消費細項 by 地區.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/台灣消費細項 by 年齡.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/台灣消費細項 by 性別.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/娛樂細項 by 地區.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/娛樂細項 by 年齡.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/娛樂細項 by 性別.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clean data/dim_expense.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Clean data/dim_expense.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clean data/台灣各地區消費娛樂性產品(缺少24年資料).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clean data/娛樂分類各系項樞紐.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +207,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NLP_project$test.coverage" NAME="test Coverage Results" MODIFIED="1751514740712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
-    <SUITE FILE_PATH="coverage/NLP_project$clean.coverage" NAME="clean Coverage Results" MODIFIED="1752824404230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clean data" />
+    <SUITE FILE_PATH="coverage/NLP_project$clean.coverage" NAME="clean Coverage Results" MODIFIED="1752828462688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clean data" />
     <SUITE FILE_PATH="coverage/NLP_project$train.coverage" NAME="train Coverage Results" MODIFIED="1752562085643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
