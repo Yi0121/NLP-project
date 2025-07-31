@@ -1,5 +1,6 @@
-with open('my_news.txt', 'r') as f:
-    text = f.read()
-import nltk
-words = nltk.word_tokenize(text)
-print("/".join(words))
+from utils.data_loader import load_all_dataset
+datasets = load_all_dataset(data_dir='data')
+# print(datasets)
+imdb_df = datasets['IMDB Dataset.csv']
+youtube_comments_df = datasets['YoutubeCommentsDataSet.csv']
+
