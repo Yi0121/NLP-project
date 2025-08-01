@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c1328b-df12-475c-80ba-1f53c80df67d" name="Changes" comment="clean data test">
-      <change afterPath="$PROJECT_DIR$/utils/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/data_preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/prehandle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/clean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/dim_expense.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/dim_les &amp; cul.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/dim_year.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/區域消費.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/台灣各地區消費娛樂性產品.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clean data/台灣部分.pbix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_news.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/整體架構/情緒分析研究報告結構規劃.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/data_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/data_preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +36,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Yi0121/NLP-project.git&quot;,
-    &quot;accountId&quot;: &quot;7a9471a7-3ff6-4a6b-aa9c-92411cfaf442&quot;
+    &quot;url&quot;: &quot;https://github.com/Yi0121/nlp-sentiment-analysis.git&quot;,
+    &quot;accountId&quot;: &quot;7d0cabee-16b9-48ad-8a26-b21ffd8d9972&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -60,27 +48,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.clean.executor": "Run",
-    "Python.data_loader.executor": "Run",
-    "Python.data_preprocessing.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.train.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/NLP-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.clean.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_preprocessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/NLP-project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -115,6 +104,10 @@
       <workItem from="1753769959818" duration="346000" />
       <workItem from="1753773657808" duration="1437000" />
       <workItem from="1753932743514" duration="8087000" />
+      <workItem from="1753963455397" duration="503000" />
+      <workItem from="1753968836195" duration="230000" />
+      <workItem from="1754028535080" duration="765000" />
+      <workItem from="1754033272017" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="inital prepare">
       <option name="closed" value="true" />
@@ -220,10 +213,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="clean data test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nlp_sentiment_analysis$data_preprocessing.coverage" NAME="data_preprocessing Coverage Results" MODIFIED="1754028633086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/NLP_project$train.coverage" NAME="train Coverage Results" MODIFIED="1753942731756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NLP_project$data_preprocessing.coverage" NAME="data_preprocessing Coverage Results" MODIFIED="1753946452779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/NLP_project$data_loader.coverage" NAME="data_loader Coverage Results" MODIFIED="1753939899069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/NLP_project$test.coverage" NAME="test Coverage Results" MODIFIED="1751514740712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/NLP_project$clean.coverage" NAME="clean Coverage Results" MODIFIED="1752828462688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Clean data" />
-    <SUITE FILE_PATH="coverage/NLP_project$train.coverage" NAME="train Coverage Results" MODIFIED="1753942731756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NLP_project$data_preprocessing.coverage" NAME="data_preprocessing Coverage Results" MODIFIED="1753946452779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>

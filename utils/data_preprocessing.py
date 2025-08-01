@@ -23,13 +23,17 @@ def clean_text(text):
     # 5. 移除多於空白
     text = re.sub(r'\s+', ' ', text).strip()
     return text
-data = {'review': [
-    "This is a *fantastic* movie! It's 10/10. <br /> Really enjoyed it.",
-    "The plot was quite boring... (zzzzz) Will not watch again.",
-    "<html>Another great film!</html> This one received 9/10 stars."
-]}
-df = pd.DataFrame(data)
-df['clean_review'] = df['review'].apply(clean_text)
-print(df[['clean_review']].head())
-
+def stop_words(text):
+    """ 移除停用詞 """
+    # 分詞
+    tokens = nltk.word_tokenize(text)
+    # 停用詞
+    stop_words = set(stopwords.words('english'))
+    filtered_tokens = [word for word in tokens if word not in stop_words]
+    return filtered_tokens
+def lemmatize(tokens):
+    """ 還原詞型 """
+    lemmatizer = WordNetLemmatizer()
+    lemma = [lemmatizer.lemmatize(token) for token in tokens]
+    return lemma
 
